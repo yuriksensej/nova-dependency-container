@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuriksensej\NovaDependencyContainer;
+namespace yuriksensej\NovaDependencyContainer;
 
 trait HasChildFields
 {

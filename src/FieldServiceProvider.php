@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuriksensej\NovaDependencyContainer;
+namespace yuriksensej\NovaDependencyContainer;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\NovaServiceProviderRegistered;
@@ -21,7 +21,7 @@ class FieldServiceProvider extends ServiceProvider
         Event::listen(NovaServiceProviderRegistered::class, function () {
             app()->bind(
                 \Laravel\Nova\Http\Controllers\ActionController::class,
-                \Yuriksensej\NovaDependencyContainer\Http\Controllers\ActionController::class
+                \yuriksensej\NovaDependencyContainer\Http\Controllers\ActionController::class
             );
         });
 

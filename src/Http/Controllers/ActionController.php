@@ -1,8 +1,8 @@
 <?php
 
-namespace Yuriksensej\NovaDependencyContainer\Http\Controllers;
+namespace yuriksensej\NovaDependencyContainer\Http\Controllers;
 
-use Yuriksensej\NovaDependencyContainer\Http\Requests\ActionRequest;
+use yuriksensej\NovaDependencyContainer\Http\Requests\ActionRequest;
 use Laravel\Nova\Http\Requests\ActionRequest as NovaActionRequest;
 use Laravel\Nova\Http\Controllers\ActionController as NovaActionController;
 

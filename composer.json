@@ -1,5 +1,5 @@
 {
-    "name": "Yuriksensej/nova-dependency-container",
+    "name": "yuriksensej\nova-dependency-container",
     "description": "A Laravel Nova field container allowing to depend on other fields values",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Yuriksensej\\NovaDependencyContainer\\": "src/"
+            "yuriksensej\\NovaDependencyContainer\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yuriksensej\\NovaDependencyContainer\\FieldServiceProvider"
+                "yuriksensej\\NovaDependencyContainer\\FieldServiceProvider"
             ]
         }
     },

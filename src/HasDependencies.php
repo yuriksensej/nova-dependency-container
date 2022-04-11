@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuriksensej\NovaDependencyContainer;
+namespace yuriksensej\NovaDependencyContainer;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
